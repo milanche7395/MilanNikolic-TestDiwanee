@@ -1,0 +1,306 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	background:#fff;
+}
+
+.about-tabs{
+	overflow: hidden;
+}
+
+.about-tabs article{
+	width:33.33%;
+	float:left;
+	text-align:center;
+	padding-bottom:100px;
+}
+
+.about-tabs article .triangle{
+	@extend .icons;
+	width:108px;
+	height:91px;
+	background:url(../img/triangle.png) no-repeat;
+}
+
+.about-tabs article hr{
+	width:42px;
+	height:2px;
+	background:#cbcbcb;
+	margin:40px auto;
+	border: none;
+}
+
+.about-tabs article h2{
+	font-weight:600;
+	text-transform:uppercase;
+	font-size: 24px; 
+	color: #333333;
+	letter-spacing: 4px;
+	line-height: 30px;
+}
+
+.about-tabs article p{
+	width:80%;
+	font-size:22px;
+	color: #333333;
+	line-height: 30px;
+	font-weight:300;
+	margin:0 auto;
+}
+
+.about-tabs article:nth-child(2){
+	background:#ededed;
+}
+
+.icons{
+	display:block;
+	margin: 155px auto 50px;
+
+	
+}
+
+.about-tabs article .oval{
+	@extend .icons;
+	width:95px;
+	height:95px;
+	background:url(../img/oval.png) no-repeat;
+}
+
+.about-tabs article .rectangle{
+	@extend .icons;
+	width:92px;
+	height:92px;
+	background:url(../img/rectangle.png) no-repeat;
+}
+
+.positions{
+	overflow: hidden;
+	clear: both;
+	padding-top: 140px;
+}
+
+.jobs{
+	width:1230px;
+	margin:0 auto;
+}
+
+.jobs span{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color:#9b9b9b;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+.jobs h2{
+	font-size:60px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+}
+
+.jobs hr{
+	width: 60px;
+    height: 3px;
+    background-color: #d0011b;
+    margin: 60px auto;
+    border: none;
+}
+
+.jobs .job-tagline{
+	font-size: 36px;
+    line-height: 50px;
+    font-weight: 300;
+    color: #333;
+    width:70%;
+    text-align:center;
+    margin:0 auto 170px;
+    clear:both;
+}
+
+.positions article{
+	width:1050px;
+	float:right;
+	clear:both;
+	padding-bottom:70px;
+}
+
+.positions article .left{
+	width:665px;
+	float:left;
+}
+
+.positions article h3{
+	font-weight:600;
+	font-size: 28px;
+	color: #333333;
+	letter-spacing: 2.33px;
+	line-height: 36px;
+	text-transform:uppercase;
+}
+
+.positions article p{
+	font-size: 24px;
+	color: #888;
+	line-height: 34px;
+}
+
+.positions .left  ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.positions .left ul li{
+	float:left;
+	font-size: 16px;
+	border:1px solid #cbcbcb;
+	padding:5px 10px;
+	margin-right:10px;
+	color:#C41230;
+	font-weight:400;
+	margin-top:20px;
+	letter-spacing: 2px;
+}
+
+.positions article a{
+	display:block;
+	float:right;
+	border: 1px solid #979797;
+	font-size: 18px;
+	color: #333;
+	letter-spacing: 2px;
+	line-height: 23px;
+	text-decoration:none;
+	padding:19px 47px;
+	text-transform:uppercase;
+	font-weight:600;
+	transition:all 0.3s;
+}
+
+.positions article a:hover{
+	background:#333;
+	color:#fff;
+}
+
+.grey-bgd{
+	background:#333;
+	clear:both;
+	overflow:hidden;
+	padding-top:64px;
+	margin-bottom:70px;
+}
+
+.grey-bgd h3{
+	color:#FFF!important;
+	text-transform:uppercase;
+}
+
+.grey-bgd p{
+	color:#808d93;
+}
+
+.grey-bgd .left ul li{
+	color:#fff;
+	borider:1px solid #7e7e7e;
+}
+
+.grey-bgd article a{
+	background:#fff;
+	color:#333;
+}
+
+.more{
+	display: block;
+    border: 1px solid #e4e4e4;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 0 auto;
+    clear:both;
+    width: 120px;
+    font-size: 14px;
+    font-weight:600;
+    text-align: center;
+    color: #4b4b4b;
+    text-decoration: none;
+    transition:all 0.3s;
+}
+
+.more:hover{
+	color:#fff;
+	background:#333;
+}
+
+.about-company{
+	width:1230px;
+	margin:0 auto;
+}
+
+.holder{
+	width: 1050px;
+	overflow:hidden;
+    float: right;
+    clear: both;
+    padding-bottom: 70px;
+}
+
+.about-company span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #9b9b9b;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.about-company h2{
+	font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about-company hr{
+    width: 60px;
+    height: 3px;
+    background-color: #d0011b;
+    margin: 60px auto;
+    border: none;
+}
+
+.about-company p{
+	margin-bottom:10px;
+	font-size:22px;
+	font-weight:300;
+	color:#333;
+	line-height:1.4;
+}
+
+.follow{
+	overflow: hidden;
+	clear: both;
+	margin-top:215px;
+}
+
+.follow span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #9b9b9b;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    }
+
+.follow ul{
+	width:158px;
+	margin:40px auto;
+}
+
+.follow ul li{
+	float:left;
+	margin-right:15px;
+}
+
+.follow ul li:last-child{
+	margin-right:0;
+}

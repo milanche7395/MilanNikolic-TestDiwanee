@@ -1,0 +1,198 @@
+@media screen and (max-width: 1230px){
+	.header-container, .jobs{
+		width:100%;
+	}
+
+	.header-container img{
+		margin:20px;
+	}
+
+	.about-company{
+		width:100%;
+	}
+
+	.holder{
+	width:95%;
+	}
+
+	.positions article{
+		width:95%;
+	}
+
+	.positions article a{
+		display:none;
+	}
+
+	.positions article .left{
+		width: 100%;
+		float:none;
+
+	}
+
+	.positions .left ul li{
+	border:none;
+	}
+
+}
+
+@media screen and (max-width: 640px){
+	header{
+	background-position:center 0;
+	height: 654px;
+	}
+
+	#social{
+		display:block;
+		text-align:inherit;
+		overflow:hidden;
+	}
+
+	#social span {
+    	color: #9c9a9b;
+    	display: block;
+    	float: left;
+    	font-weight:600;
+    	margin: 20px;
+    	text-transform: uppercase;
+    }
+
+	#social a{
+	  float:left;
+	  display:inline-block;
+	  margin-left:10px;
+	  width:40%;
+	}
+
+	#social .social-icons{
+	  padding:0;
+	  float:right;
+	  width: 100px;
+	  text-align: right;
+	}
+
+	#social .social-icons a{
+	  float:left;
+	}
+
+	#social .fb-nav{
+		position:relative;
+		top:-5px;
+	}
+
+	#social .social-icons a img{
+	  margin:0;
+	}
+
+	.nav-collapse{
+	width: 100%;
+	margin-top:0;
+	background:rgba(0,0,0,0.7);
+	}
+
+	.nav-collapse li{
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+
+	.nav-collapse li a{
+		color:#fff;
+		padding: 20px 0;
+		font-weight:600;
+		height: auto;
+		border-bottom: 1px solid #999;
+	}
+
+	.tagline{
+		margin-top: 218px;
+	}
+
+	.tagline h1{
+		font-size: 60px;
+	}
+
+	.tagline p{
+		font-size:26px;
+	}
+
+	.about-tabs article{
+		width:100%;
+		float:none;
+		padding: 40px 0;
+	}
+
+	.icons, .about-tabs article .triangle, .about-tabs article .oval, .about-tabs article .rectangle{
+		margin: 25px auto 50px;
+	}
+	
+	.jobs .job-tagline {
+    font-size: 26px;
+    line-height: 34px;
+    }
+
+    .positions article h3{
+    	font-size:20px;
+    }
+
+    .positions article p {
+	    font-size: 16px;
+	    line-height: 19px;
+	}
+
+	.about-company h2{
+		font-size:36px;
+	}
+
+	.about-company p {
+    font-size: 18px;
+    line-height: 1.2;
+	}
+
+	footer{
+		padding-top: 30px;
+	}
+
+	footer .footer-container{
+		width:100%;
+	}
+
+	footer .footer-holder{
+		float:none;
+		width:95%;
+		text-align:center;
+	}
+
+	footer .footer-holder{
+		margin-bottom:30px;
+	}
+
+	.bottom-footer{
+		padding:0;
+	}
+
+	.bottom-footer .footer-container .left{
+		width: 100%;
+		padding: 30px 10px;
+		text-align:center;
+		letter-spacing: 0;
+		background:#2d2d2d;
+		width: 100%;
+	}
+
+	.bottom-footer .footer-container .right{
+		width: 95%;
+		padding: 20px 10px;
+	}
+
+	.bottom-footer .footer-container .right a{
+		float:right;
+	}
+
+
+}
+
+@media screen and (max-width: 320px){
+	.more{
+		width:95%;
+	}
+}

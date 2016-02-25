@@ -1,0 +1,85 @@
+footer{
+	background:#2D2D2D;
+	overflow:hidden;
+	clear:both;
+	padding-top:130px;
+}
+
+footer .footer-container{
+	width:1230px;
+	margin:0 auto;
+}
+
+footer .footer-holder{
+	width: 33%;
+    float: left;
+    margin-bottom:120px;
+
+}
+
+footer .footer-holder .pin{
+	width:19px;
+	height:28px;
+	display:inline-block;
+	background:url(../img/place-pin-ico.png) no-repeat;
+	margin: 5px 5px 0 0;
+	position:relative;
+	top:4px;
+}
+
+footer .footer-holder h3{
+	font-weight:400;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-transform:uppercase;
+	margin: 7px 0 7px 0px;
+	letter-spacing: 2px;
+}
+
+footer .footer-holder p{
+    clear: both;
+    font-weight:300;
+    color: #9B9B9B;
+    font-size: 18px;
+    line-height: 28px;
+ }
+
+.bottom-footer{
+	background:#242424;
+	clear:both;
+	overflow:hidden;
+	padding: 45px 0 23px 0;
+}
+
+.bottom-footer .footer-container .left {
+    width: 70%;
+    letter-spacing: 2px;
+    float: left;
+    text-transform: uppercase;
+    color: #56564e;
+}
+
+ .bottom-footer .footer-container .right {
+    width: 30%;
+    float: right;
+}
+
+.bottom-footer .footer-container .right ul {
+    width: 158px;
+    float: left;
+}
+
+.bottom-footer .footer-container .right ul li {
+    float: left;
+    margin-right: 15px;
+    transition:all 0.3s;
+}
+
+.bottom-footer .footer-container .right ul li:hover{
+	opacity:0.1;
+}
+
+.bottom-footer .footer-container .right a {
+    color: #56564e;
+    text-decoration: none;
+}
